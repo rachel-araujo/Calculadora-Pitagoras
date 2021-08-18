@@ -1,20 +1,38 @@
 import React from 'react';
-import { Header } from '../../components/Header/Header';
-import { Footer } from '../../components/Footer/Footer';
+import { Container, H2 } from './styled';
+import CardSegundoCateto from '../../components/CardSegundoCateto/CardSegundoCateto';
+import { useHistory } from 'react-router-dom'
+import Button from '@material-ui/core/Button';
 
-export const SegundoCatetoPage = ()=>{
+
+const SegundoCatetoPage = () => {
+    const history = useHistory();
+
+    const goToHomePage = () => {
+        history.push("/")
+    }
 
 
     return (
-        <>  
-        <Header />
+        <>
 
-        <h1>Segundo Cateto Page</h1>
- 
-        
-        <Footer />
-           
+            <Container>
+                <Button
+                    color={'primary'}
+                    onClick={goToHomePage}
+                    variant="outlined"
+                >Página Inicial
+                </Button>
+                <H2>Encontre o valor do Cateto (c):</H2>
+                <CardSegundoCateto />
+
+            </Container>
+
+
+
+
         </>
     )
 
 }
+export default SegundoCatetoPage

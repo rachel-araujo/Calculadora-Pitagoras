@@ -11,5 +11,5 @@ export const goToPrimeiroCatetoPage = (history) => {
 }
 
 export const goToSegundoCatetoPage = (history) => {
-    history.push('/segundoCatetoPage')
+    history.push('/segundoCateto')
 }

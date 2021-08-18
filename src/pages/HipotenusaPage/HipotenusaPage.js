@@ -1,20 +1,38 @@
 import React from 'react';
-import { Header } from '../../components/Header/Header';
-import { Footer } from '../../components/Footer/Footer';
+import { Container, H2 } from './styled';
+import CardHipotenusa from '../../components/CardHipotenusa/CardHipotenusa';
+import { useHistory } from 'react-router-dom'
+import Button from '@material-ui/core/Button';
 
-export const HipotenusaPage = ()=>{
+
+
+
+const HipotenusaPage = () => {
+    const history = useHistory();
+
+    const goToHomePage = () => {
+        history.push("/")
+    }
 
 
     return (
-        <>  
-        <Header />
 
-        <h1>Hipotenusa Page</h1>
- 
-        
-        <Footer />
-           
-        </>
+        <Container>
+            <Button
+                color={'primary'}
+                onClick={goToHomePage}
+                variant="outlined"
+            >Página Inicial
+            </Button>
+            <H2>Encontre o valor da hipotenusa (a):</H2>
+
+            <CardHipotenusa />
+
+
+        </Container>
+
+
     )
 
 }
+export default HipotenusaPage

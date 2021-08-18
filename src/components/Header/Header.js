@@ -1,11 +1,17 @@
 import React from 'react'
+import Topo from '../../assets/topo.png'
+import { Img } from './styled'
 
-export const Header = ()=> {
+const Header = () => {
+
 
     return (
-        <h1>Sou o header</h1> 
+
+        <>
+            <Img src={Topo} />
+        </>
 
     )
-  
 
 }
+export default Header
