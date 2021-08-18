@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2e2cfec6.chunk.css",
+    "main.js": "/static/js/main.e09d13f5.chunk.js",
+    "main.js.map": "/static/js/main.e09d13f5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.dc7707ef.js",
+    "runtime-main.js.map": "/static/js/runtime-main.dc7707ef.js.map",
+    "static/js/2.2f7161df.chunk.js": "/static/js/2.2f7161df.chunk.js",
+    "static/js/2.2f7161df.chunk.js.map": "/static/js/2.2f7161df.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2e2cfec6.chunk.css.map": "/static/css/main.2e2cfec6.chunk.css.map",
+    "static/js/2.2f7161df.chunk.js.LICENSE.txt": "/static/js/2.2f7161df.chunk.js.LICENSE.txt",
+    "static/media/formula.83d57fae.png": "/static/media/formula.83d57fae.png",
+    "static/media/github.553c6615.png": "/static/media/github.553c6615.png",
+    "static/media/linkedin.a99ac507.png": "/static/media/linkedin.a99ac507.png",
+    "static/media/topo.6aea0d4d.png": "/static/media/topo.6aea0d4d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc7707ef.js",
+    "static/js/2.2f7161df.chunk.js",
+    "static/css/main.2e2cfec6.chunk.css",
+    "static/js/main.e09d13f5.chunk.js"
+  ]
+}
