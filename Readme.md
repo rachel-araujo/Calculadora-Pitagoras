@@ -6,6 +6,7 @@
 . Material-UI</br>
 . Componentização</br>
 . Rotas</br>
+. Hooks</br>
 . Manipulação de estado</p>
 
 
